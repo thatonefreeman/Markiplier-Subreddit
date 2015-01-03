@@ -1,0 +1,340 @@
+/* Snow, Yo! */
+#header-bottom-left{
+      background-color:transparent;
+      background-image:url(%%s1%%),url(%%s2%%),url(%%s3%%);
+      height: 200px;
+
+    -webkit-animation:snow 20s linear infinite;
+    -moz-animation:snow 20s linear infinite;
+    -ms-animation:snow 20s linear infinite;
+    animation:snow 20s linear infinite
+  }
+
+@-webkit-keyframes snow{0%{background-position:0 0,0 0,0 0}100%{background-position:500px 1000px,400px       400px,300px 300px}}
+@-moz-keyframes snow{0%{background-position:0 0,0 0,0 0}100%{background-position:500px 1000px,400px 400px,300px 300px}}
+@-ms-keyframes snow{0%{background-position:0 0,0 0,0 0}100%{background-position:500px 1000px,400px 400px,300px 300px}}
+@keyframes snow{0%{background-position:0 0,0 0,0 0}100%{background-position:500px 1000px,400px 400px,300px 300px}}
+
+/* Link Edits*/
+
+a:link {color: #ed2024;}
+a:visited {color: #191919;}
+a:hover {color: #000;}
+a:active {color: #FF0000;}
+
+
+
+/*ALL THE FLAIR EDITS*/
+.flair-green { background:green !important; color:white !important; border-radius:50px }
+.flair-purple { background:#9966FF !important; color:black !important; border-radius:50px }
+.flair-blue { background:#3333CC !important; color:white !important; border-radius:50px }
+.flair-red { background:red !important; color:white !important; border-radius:50px }
+.flair-white { background:white !important; color:black !important; border-radius:50px }
+.flair-black { background:black !important; color:white !important; border-radius:50px }
+.flair-yellow { background:#FFFF99 !important; color:black !important; border-radius:50px }
+.flair-olive { background:#999966 !important; color:black !important; border-radius:50px }
+.flair-grey { background:#666666 !important; color:white !important; border-radius:50px }
+.flair-brown { background:#666600 !important; color:white !important; border-radius:50px }
+.flair-lime { background:#33CC00 !important; color:black !important; border-radius:50px }
+.flair-plague { background:black !important; color:#33FF00 !important; border-radius:50px }
+.flair-mine { background:#009933 !important; color:#666600 !important; border-radius:50px }
+.flair-portal { background:black !important; color:#6699FF !important; border-radius:50px }
+.flair-mark { background:yellow !important; color:black !important; border-radius:50px }
+.flair-kerbalspace { background:#3399CC !important; color:#FFFF33 !important; border-radius:50px }
+.flair-scpContainment { background:#FF0000 !important; color:black !important; border-radius:50px }
+.flair-slenderMan { background:#B0B0B0 !important; color:black !important; border-radius:50px }
+.flair-unfairMario { background:#66FF00 !important; color:#B0B0B0 !important; border-radius:50px }
+.flair-drunkMinecraft { background:#99CC66 !important; color:#9966FF !important; border-radius:50px }
+.flair-erie { background:#6699CC !important; color:#FF9900 !important; border-radius:50px }
+.flair-limbo { background:#D0D0D0 !important; color:black !important; border-radius:50px }
+.flair-skryim { background:#009966 !important; color:#996633 !important; border-radius:50px }
+.flair-markiplierMail { background:#FFFF66 !important; color:black !important; border-radius:50px }
+.flair-surgeonSimulator { background:#CCCC33 !important; color:white !important; border-radius:50px }
+
+.flair-iambread { 
+background:url(%%flair-iambread%%); 
+background-repeat: no-repeat;
+width:48px; 
+height:28px;
+border: none;
+}
+.flair-tinyboxtim { 
+background:url(%%tbt-flair%%); 
+background-repeat: no-repeat;
+width:48px; 
+height:28px;
+border: none;
+}
+.flair-markiplierlogo{ 
+background:url(%%flair-markiplierlogo%%); 
+background-repeat: no-repeat;
+width:48px; 
+height:28px;
+border: none;
+}
+.flair-freddy{ 
+background:url(%%flair-freddy%%); 
+background-repeat: no-repeat;
+width:48px; 
+height:28px;
+border: none;
+}
+.flair-kiddie{ 
+background:url(%%flair-kiddie%%); 
+background-repeat: no-repeat;
+width:48px; 
+height:28px;
+border: none;
+}
+.flair-santa{ 
+background:url(%%flair-santa%%); 
+background-repeat: no-repeat;
+width:48px; 
+height:28px;
+border: none;
+}
+.flair-baddad{ 
+background:url(%%flair-baddad%%); 
+background-repeat: no-repeat;
+width:48px; 
+height:28px;
+border: none;
+}
+.flair-billy{ 
+background:url(%%flair-billy%%); 
+background-repeat: no-repeat;
+width:48px; 
+height:28px;
+border: none;
+}
+/*-------------------------------------------------*/
+
+/* Change the description of "subscribers"*/
+div.titlebox span.word {
+    display: none
+    }
+div.titlebox span.number:after {
+    content: " Fans of Markiplier"
+    }
+div.titlebox span.number:before {
+    content: " "
+    }
+
+/*Adds boxes in sidebar*/
+
+.side .md p > em {
+font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
+font-weight: 300;
+
+color: #f2f2f2;
+display: inline-block;
+font-size: 1.4em;
+border-top: none;
+font-size: 15px;
+padding: 5px 12px 5px 8px;
+width: 100%;
+}
+
+/*--Table CSS--*/
+table { 
+background-color: #990000;
+color: #fff;
+margin: auto;
+border-spacing: 5px; 
+border: 2px solid #990000;
+padding: 10px;
+} 
+
+td, th { 
+margin: auto;
+width: auto;
+font-style:normal; }
+
+/*Sidebar Edits - color, links*/
+.side {
+ float:right; 
+ background-color:#f3f3f3; 
+ margin:0px 5px 0 5px;
+ width:300px; }
+.side a:link {color: #003366;}
+.side  a:visited {color: #0099BB;}
+.side  a:hover {color: #CCCCCC;}
+.side a:active {color: #FF0000;}
+.side .spacer {
+ margin:7px 0 12px 0;
+ }
+.side { background-color: #f3f3f3; color: black;}
+.sidebox .nub {background-color: #f3f3f3;}
+
+/*Sidebar image*/
+div.side div.spacer:nth-of-type(1){
+padding: 300px 0 0 !important;
+background:url(%%maxresdefault%%) top center no-repeat;
+margin-top:10px;
+}
+
+/*Header Color*/
+#header {background-color: #eee; border-color: #555;}
+
+/*Mail icons*/
+#mail {
+position: relative;
+/*display: inline-block;*/
+text-indent: -9999px;
+overflow: visible;
+padding-left: 5px;
+padding-right: 5px;
+width: 20px; 
+
+}
+
+#mail.havemail {
+background:url(%%newmail%%);
+}
+
+#mail.nohavemail {
+background:url(%%nomail%%);
+}
+
+/*Self-post Thumbnail Icon*/
+.thumbnail.self {
+height: 104px; 
+background-image: url(%%selfimage%%);
+background-position: 0px 0px;
+background-repeat: no-repeat;
+} 
+
+/*Simple Background*/
+body {
+background-color: #f4f4f4;  
+} 
+
+/*Reddit's default color: #ccee4f8*/
+
+/*
+ * New Icons (2015)
+ */
+.arrow.down { background: url(%%downvote-unclicked%%) no-repeat 0 0; width:20px; height:25px; }
+.arrow.downmod { background: url(%%downvote%%) no-repeat 0 0; width:20px; height:25px; }
+.arrow.up { background: url(%%upvote-unclicked%%) no-repeat 0 0; width:20px; height:25px; }
+.arrow.upmod { background: url(%%upvote%%) no-repeat 0 0; width:20px; height:25px; }
+
+/*
+ * New Typography (2015)
+ */
+.thing .title {color: #ed2024;}
+.thing .title a:visited {color: #191919;}
+.thing.stickied {font-style: italic;}
+
+/*
+ * New Header (2015)
+ */
+
+#header-img.default-header {display: none;}
+#header-img {margin-left: 20px; top: 20px; z-index:100; position:absolute;}
+
+#sr-header-area {
+background-color: #990000;
+border-bottom: 2px solid #000000;
+color: #fff;
+}
+#sr-header-area a
+{
+color: #fff;
+}
+
+#header{
+    height: 245px;
+    background: url(%%markiplier-banner%%) no-repeat;
+}
+
+#header {box-shadow: #000 0 2px 6px;}
+
+.tabmenu
+{
+z-index: 200;
+font-family: Arial;
+color: white;
+margin: 0;
+position: absolute;
+display: block;
+left: 35px;
+top: 225px;
+height: 20px;
+text-shadow: 0px 0px 4px #990000;
+font-variant: small-caps;
+font-size: 12pt;
+}
+.tabmenu li a
+{
+background-color: transparent;
+padding: 0px 5px;
+color: #fff;
+}
+.tabmenu li.selected a
+{
+background-color: #990000;
+border: 0px;
+color: #fff;
+padding: 4px 3px 4px;
+}
+span.redditname a {
+font-size: 0px;
+position: absolute;
+display: block;
+top: 65px;
+left: 45px;
+width: 225px;
+height: 130px;
+z-index: 100;
+background: transparent url("%%reddit-logo-on%%") no-repeat;
+}
+span.redditname a:hover {
+font-size: 0px;
+position: absolute;
+display: block;
+top: 65px;
+left: 45px;
+width: 225px;
+height: 130px;
+z-index: 100;
+background: transparent url(%%reddit-name-hover%%) no-repeat;
+}
+
+div#header div#header-bottom-right  {top:222px; background-color: transparent;}
+
+#header-bottom-right a {color:#fff;}
+#userbarToggle {
+background: none !important; 
+border:none !important; 
+color:#fff !important; 
+font-size:14pt;
+line-height: 25px !important;
+}
+
+/*
+ * Links
+ */
+.linklisting .link
+{
+border-top: .2em solid hsla(0,0%,90%,.6);
+border-bottom: .2em solid hsla(0,0%,70%,.5);
+padding: .4em .6em .4em .8em;
+}
+.redditname
+{
+text-transform: uppercase;
+}
+
+/*
+ * Column
+ */
+.midcol
+{
+margin-left: 10px;
+margin-right: 10px;
+}
+.entry
+{
+padding-left: 10px;
+}
