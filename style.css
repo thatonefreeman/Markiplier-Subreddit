@@ -119,6 +119,9 @@ div.titlebox span.number:after {
 div.titlebox span.number:before {
     content: " "
     }
+div.titlebox .users-online .number::after {
+content: " fans browsing currently";
+}
 
 /*Adds boxes in sidebar*/
 
