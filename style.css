@@ -171,8 +171,8 @@ font-style:normal; }
 
 /*Sidebar image*/
 div.side div.spacer:nth-of-type(1){
-padding: 300px 0 0 !important;
-background:url(%%maxresdefault%%) top center no-repeat;
+/*padding: 300px 0 0 !important;*/
+/*background:url(%%maxresdefault%%) top center no-repeat;*/
 margin-top:10px;
 }
 
