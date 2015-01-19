@@ -126,18 +126,22 @@ content: " fans browsing currently";
 /*Adds boxes in sidebar*/
 
 .side .md p > em {
-font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
-font-weight: 300;
-background-color: #990000;
-color: #f2f2f2;
+font-size: 10pt;
+font-family: Arial,sans-serif;
+line-height: 1.35em;
+background-color: #000;
+color: #fff;
 display: inline-block;
-font-size: 1.4em;
 border-top: none;
-font-size: 15px;
-padding: 5px 12px 5px 8px;
+padding: 8px 0px 5px 8px;
 width: 100%;
 }
 
+.md p, .md h1
+{
+font-size: 10pt;
+padding: 5px 0px 0px 5px;
+}
 /*--Table CSS--*/
 table { 
 background-color: #990000;
@@ -156,18 +160,18 @@ font-style:normal; }
 /*Sidebar Edits - color, links*/
 .side {
  float:right; 
- background-color:#f3f3f3; 
- margin:0px 5px 0 5px;
- width:300px; }
-.side a:link {color: #003366;}
-.side  a:visited {color: #0099BB;}
-.side  a:hover {color: #CCCCCC;}
+ background-color:#fff; 
+ margin: 0px 5px 0 5px;
+}
+.side a:link {color: #fff;}
+.side  a:visited {color: #fff;}
+.side  a:hover {color: #000;}
 .side a:active {color: #FF0000;}
 .side .spacer {
  margin:7px 0 12px 0;
  }
-.side { background-color: #f3f3f3; color: black;}
-.sidebox .nub {background-color: #f3f3f3;}
+.side { background-color: #fff; color: black;}
+.sidebox .nub {background-color: #fff;}
 
 /*Sidebar image*/
 div.side div.spacer:nth-of-type(1){
@@ -177,7 +181,7 @@ margin-top:10px;
 }
 
 /*Header Color*/
-#header {background-color: #eee; border-color: #555;}
+#header {background-color: #fff; border-color: #555; margin-bottom: 2em;}
 
 /*Mail icons*/
 #mail {
@@ -201,15 +205,15 @@ background:url(%%nomail%%);
 
 /*Self-post Thumbnail Icon*/
 .thumbnail.self {
-height: 104px; 
-background-image: url(%%selfimage%%);
+height: 70px; 
+background-image: url(%%default-thread%%);
 background-position: 0px 0px;
 background-repeat: no-repeat;
 } 
 
 /*Simple Background*/
 body {
-background-color: #f4f4f4;  
+background-color: #fff;  
 } 
 
 /*Reddit's default color: #ccee4f8*/
@@ -225,7 +229,7 @@ background-color: #f4f4f4;
 /*
  * New Typography (2015)
  */
-.thing .title {color: #ed2024;}
+.thing .title {color: #ed2024; margin-bottom: 8px;}
 .thing .title a:visited {color: #191919;}
 .thing.stickied {font-style: italic;}
 
@@ -256,7 +260,7 @@ color: #fff;
 .tabmenu
 {
 z-index: 200;
-font-family: Arial;
+font-family: normal verdana,arial,helvetica,sans-serif;
 color: white;
 margin: 0;
 position: absolute;
@@ -322,7 +326,15 @@ line-height: 25px !important;
 {
 border-top: .2em solid hsla(0,0%,90%,.6);
 border-bottom: .2em solid hsla(0,0%,70%,.5);
-padding: .4em .6em .4em .8em;
+padding: 1em 1em 1em 1em;
+background-color:#fff;
+box-shadow: #666 1px 1px 2px;
+}
+
+.link
+{
+margin-right: 345px;
+border-radius: 5px;
 }
 .redditname
 {
@@ -340,4 +352,60 @@ margin-right: 10px;
 .entry
 {
 padding-left: 10px;
+}
+p
+{
+font-size: 14px;
+font-family: Arial,sans-serif;
+line-height: 1.35em;
+}
+
+/*
+ * New Side Bar
+ */
+.side
+{
+background-color: #990000;
+color: #fff;
+padding: 1em 1em 1em 1em;
+border-left: 10px solid #510000;
+border-top: 8px solid #510000;
+border-radius: 5px;
+width:300px;
+}
+
+.md hr
+{
+border: 2px solid #770000;
+}
+
+.icon-menu a
+{
+background: transparent;
+}
+
+.morelink
+{
+background: transparent;
+background-image: none;
+border: 2px solid #770000;
+border-radius: 5px;
+padding: 5px;
+margin: 5px;
+}
+.morelink:hover
+{
+background: transparent;
+background-image: none;
+border: 2px solid #770000;
+border-radius: 5px;
+}
+.morelink .nub {
+   display: none;
+   }
+.linkinfo
+{
+background-color: transparent;
+border: 1px solid #510000;
+border-radius: 5px;
 }
